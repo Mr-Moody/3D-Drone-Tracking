@@ -207,4 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 # Dataset
+drone-tracking-datasets/
 /drone-tracking-datasets/
+.gitignore
