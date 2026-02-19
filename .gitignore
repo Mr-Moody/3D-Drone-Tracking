@@ -209,4 +209,6 @@ __marimo__/
 # Dataset
 drone-tracking-datasets/
 /drone-tracking-datasets/
-.gitignore
+
+# Simulator
+/PegasusSimulator/

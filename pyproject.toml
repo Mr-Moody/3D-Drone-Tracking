@@ -1,10 +1,17 @@
 [project]
-name = "3d-drone-tracking"
+name = "3D-Drone-Tracking"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.12"
 dependencies = [
-    "opencv-python>=4.13.0.92",
-    "torch>=2.10.0",
+    "isaacsim[all,extscache]==5.1.0",
 ]
+
+[[tool.uv.index]]
+name = "nvidia"
+url = "https://pypi.nvidia.com"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu128" # Ensures you get the CUDA-accelerated torch
+explicit = true
